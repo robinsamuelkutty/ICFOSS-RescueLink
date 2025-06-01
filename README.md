@@ -137,10 +137,3 @@ This is my personal note for setting up a **LoRaWAN network on Ubuntu 22.04** us
 - Optional: Secure element for key storage
 
 ---
-
-### Step-by-Step Instructions
-
-#### 1. Set Static IP
-
-```bash
-sudo nano /etc/netplan/01-netcfg.yaml
