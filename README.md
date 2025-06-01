@@ -10,7 +10,7 @@ This is my personal note for setting up a **LoRaWAN network on Ubuntu 22.04** us
 
 ---
 
-## 🔧 Key Components of LoRaWAN
+##  Key Components of LoRaWAN
 
 - **End Devices (Nodes)** – Sensors, meters, or devices like IMUs (e.g., MPU6050).
 - **Gateways** – Relay data between nodes and the network server (e.g., Dragino LG308).
