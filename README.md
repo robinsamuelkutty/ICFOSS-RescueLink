@@ -1,10 +1,10 @@
-# 🌐 LoRaWAN Network Setup Guide (Personal Note)
+#  LoRaWAN Network Setup Guide (Personal Note)
 
 This is my personal note for setting up a **LoRaWAN network on Ubuntu 22.04** using **ChirpStack**, with **InfluxDB** for data storage and **Grafana** for visualization. It covers LoRaWAN basics, components, pros/cons, security, and step-by-step setup instructions.
 
 ---
 
-## 🌐 What is LoRaWAN?
+##  What is LoRaWAN?
 
 **LoRaWAN** (Long Range Wide Area Network) is a Low Power, Wide Area Network (LPWAN) protocol designed for wireless communication between IoT devices over long distances with minimal power usage. It uses LoRa (Long Range) modulation and operates in unlicensed radio frequency bands (e.g., **868 MHz** in Europe, **915 MHz** in the US).
 
@@ -19,21 +19,21 @@ This is my personal note for setting up a **LoRaWAN network on Ubuntu 22.04** us
 
 ---
 
-## ✅ Advantages of LoRaWAN
+##  Advantages of LoRaWAN
 
 | Feature                  | Benefit                                         |
 |--------------------------|--------------------------------------------------|
-| 📡 Long Range             | Up to 15–20 km in rural areas, 2–5 km in urban   |
-| 🔋 Low Power              | Battery life up to 10+ years for nodes           |
-| 🌍 Low Cost               | No SIM cards; uses unlicensed ISM bands          |
-| 📶 Scalability            | Supports thousands of devices per gateway        |
-| 🔐 Secure                 | AES-128 encryption for data & network            |
-| 🏭 Ideal for IoT          | Great for smart agriculture, cities, metering    |
-| 🌐 Bidirectional Communication | Supports commands from server to devices |
+|  Long Range             | Up to 15–20 km in rural areas, 2–5 km in urban   |
+|  Low Power              | Battery life up to 10+ years for nodes           |
+|  Low Cost               | No SIM cards; uses unlicensed ISM bands          |
+|  Scalability            | Supports thousands of devices per gateway        |
+|  Secure                 | AES-128 encryption for data & network            |
+|  Ideal for IoT          | Great for smart agriculture, cities, metering    |
+| 🌐Bidirectional Communication | Supports commands from server to devices |
 
 ---
 
-## 🔻 Disadvantages of LoRaWAN
+##  Disadvantages of LoRaWAN
 
 - **Low Data Rate**: Designed for small, infrequent packets. Not suitable for video or large file transfers.
 - **Limited Payload Size**: 51–222 bytes depending on data rate.
@@ -48,7 +48,7 @@ This is my personal note for setting up a **LoRaWAN network on Ubuntu 22.04** us
 
 ---
 
-## 📌 Use Cases
+##  Use Cases
 
 - **Smart Agriculture**: Soil and weather sensors.
 - **Smart Cities**: Streetlights, parking systems.
@@ -58,7 +58,7 @@ This is my personal note for setting up a **LoRaWAN network on Ubuntu 22.04** us
 
 ---
 
-## 🔹 LoRaWAN Device Classes
+##  LoRaWAN Device Classes
 
 | Feature            | Class A                     | Class B                      | Class C                      |
 |--------------------|-----------------------------|------------------------------|------------------------------|
@@ -73,7 +73,7 @@ This is my personal note for setting up a **LoRaWAN network on Ubuntu 22.04** us
 
 ---
 
-## 📡 Maximum Data Rate in LoRaWAN
+##  Maximum Data Rate in LoRaWAN
 
 | Region | Bandwidth | Spreading Factor (SF) | Max Data Rate            |
 |--------|-----------|------------------------|---------------------------|
@@ -86,7 +86,7 @@ This is my personal note for setting up a **LoRaWAN network on Ubuntu 22.04** us
 
 ---
 
-## 🔐 LoRaWAN Security Overview
+##  LoRaWAN Security Overview
 
 ### Security Layers
 
@@ -125,7 +125,7 @@ This is my personal note for setting up a **LoRaWAN network on Ubuntu 22.04** us
 
 ---
 
-## 🔧 LoRaWAN Network Setup on Ubuntu 22.04
+##  LoRaWAN Network Setup on Ubuntu 22.04
 
 ### Prerequisites
 
