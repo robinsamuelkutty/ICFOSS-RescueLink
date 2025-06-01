@@ -29,7 +29,7 @@ This is my personal note for setting up a **LoRaWAN network on Ubuntu 22.04** us
 |  Scalability            | Supports thousands of devices per gateway        |
 |  Secure                 | AES-128 encryption for data & network            |
 |  Ideal for IoT          | Great for smart agriculture, cities, metering    |
-| 🌐Bidirectional Communication | Supports commands from server to devices |
+| Bidirectional Communication | Supports commands from server to devices |
 
 ---
 
